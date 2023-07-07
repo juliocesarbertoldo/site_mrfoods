@@ -3,13 +3,15 @@ html, body {
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
-    background-color: whitesmoke;
+    background-color: #fcf8e3;
 }
 
 .template {
     height: 100px;
     padding-top: 200px;
-    background-image: linear-gradient(to bottom,  #88837a, white);
+    background: url("../img/fd-template.jpg") no-repeat;
+    background-position: 50%;
+    background-size: cover;
     box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.5);
 }
 
@@ -20,19 +22,25 @@ html, body {
     height: 143px;
     padding: 5px;
     margin: auto;
-    background-image: linear-gradient(to bottom, transparent 50%, #554b4c 1%, whitesmoke);
+    background-image: linear-gradient(to bottom, transparent 60%, rgb(29, 27, 12) 1%, #e8ee99);
     box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 .cliente-logo {
-    height: 140px;
-    background: url("https://static.wixstatic.com/media/a4a70a_1f35ada188a64d66b3f88e9b00a54c0a~mv2.png/v1/fill/w_159,h_119,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/MrBistteca_Color.png") no-repeat;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    background: url("../img/logo.png") no-repeat;
     background-size: contain;
     background-position: 50%;
-    background-color: white;
-    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.5);
-    border-radius: 70px;
+    background-color: #88837a;
+}
+
+.div-cliente{
+    height: 30px;
+    margin: auto -10px auto -5px;
+    padding: 5px;
+    background-color: rgb(255, 255, 255);
 }
 
 .cliente-contato {
@@ -40,15 +48,12 @@ html, body {
 }
 
 .cliente-nomeFantasia {
-    max-width: 300px;
+    height: 100%;
+    width: 95%;
     margin: auto;
-    padding: 5px;
-    font-size: 22px;
-    text-align: center;
-    color: balck;
-    border: 2px solid rgba(0, 0, 0, 0.2);
-    border-radius: 10px;
-    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.1);
+    background: url("../img/nomeFantasia.png") no-repeat;
+    background-size: contain;
+    background-position: 50%;
 }
 
 h2 {
